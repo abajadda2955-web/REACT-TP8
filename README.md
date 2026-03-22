@@ -7,29 +7,9 @@
 - Afficher des listes dynamiques dans React
 - Gérer les états de chargement et d'erreur
 - Structurer proprement son code
+  
 ---
 
-## Structure du projet
-text
-
-tp-api/
-├── src/
-│   ├── App.js           # Composant principal
-│   ├── App.css          # Styles modernes
-│   ├── FetchData.js     # Composant avec fetch()
-│   ├── AxiosData.js     # Composant avec axios
-│   └── index.js         # Point d'entrée
-└── package.json
-
----
-
-## Composants
-Composant	   |     Description	API utilisée
-=============|=========================================================================
-FetchData.js |    Utilise fetch() pour récupérer des articles	JSONPlaceholder /posts   |
-AxiosData.js |    Utilise axios pour récupérer des utilisateurs	JSONPlaceholder /users |
-
----
 ##Fonctionnalités
 
 ✅ Gestion des états
